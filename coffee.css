@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,84.9,486;1,84.9,486&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,84.9,486;1,84.9,486&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+			margin:0px;
+			padding:0px;
+		}	
+			nav{
+				
+				width:100%;
+				background-color:transparent;/*#503C3C;*/
+				text-align:right;
+				padding:1.5rem;
+			}
+			nav ul{
+				margin-right:19rem;
+				position:absolute;
+				top:2rem;
+				
+			}
+			nav ul li{
+				display:inline;
+				
+				
+			}
+			nav a{
+				color:white;/*#503C3C;*/
+				margin-left:3rem;
+				text-decoration:none;
+				font-weight:bold;
+				font-family:arial;
+				
+			}
+nav a:hover{
+color:#EAC696;
+}
+			.a p{
+				  font-family: "Montserrat", sans-serif;
+margin-left:4rem;
+font-size:1.2rem;
+color:white;
+font-weight:400;
+
+			}
+			.a h3{
+				color:white;
+				line-height:2rem;
+				word-spacing:0.5rem;
+				font-size:4.5rem;
+  				font-family: "Noto Sans", sans-serif;			  
+				text-align:left;
+				margin-left:4rem;
+				margin-top:14rem;
+				color:#FDF7E4;
+				/*transition:1s;*/
+				color:white;
+				font-weight:600;
+			}
+			.a h2 b{
+				margin-top:2rem;
+				color:#6C3428;
+				font-weight:700;
+				line-height:2.5rem;
+				
+			}
+			.a h2{
+				padding-top:1.5rem;
+				margin-left:4rem;
+				font-size:4.5rem;
+				font-family:roboto;
+				/*transition:1s;*/
+
+  				font-family: "Noto Sans", sans-serif;
+				font-weight:600;
+				
+			}
+			.a{
+				background-image:url("coffee1.jpg");
+				background-size:cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				/*background-attachment:fixed;*/
+				width: 100%;
+				height:100vh;
+				/*padding-top: 200px;
+				padding-left: 100px;*/
+				color: white;
+			}
+			.a button{
+				height: 50px;
+				width: 149px;
+				border-radius:2.75rem;
+				margin-top: 40px;
+				font-size: 18px;
+				background-color: transparent;
+				color: white;
+				border: 1px solid white;
+				transition: 1s;
+				margin-left:4rem;
+				
+			}
+			.a button:hover{
+				background-color: white;
+				color:#6C3428;
+
+			}
+			.a #bu2{
+				margin-left: 30px;
+			}
+			.card1,.card2,.card3,.card4{
+				background-color:white;
+				
+				padding:0.5rem 1rem 0.5rem 1rem;
+				width:17%;
+				/*border:1px solid #B47B84;*/
+				box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+				margin-bottom:3rem;
+				margin-top:1rem;
+				transition:0.3s all ease;
+			}
+			.card1 img:hover ,.card2 img:hover ,.card3 img:hover ,.card4 img:hover {
+				transform:scale(1.1);
+			}
+		.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+				/*box-shadow:0px 3px 16px -6px #B47B84;*/
+				
+				border:none;
+				transform:translateY(-15px);
+			}
+			.cards p{
+				/*box-shadow: 1px -32px 37px 36px white;
+				z-index:12;*/
+			}
+			.cards{
+				display:flex;
+				justify-content:space-evenly;
+				align-items:center;
+				flex-direction:row;
+				margin-top:4rem;
+				overflow:hidden;
+				transition:0.3s all ease-in-out;
+				
+			}
+			.cards p{
+				color:black;
+				margin:1rem 1rem 1rem 1rem;
+				
+				 font-family: "Teachers", sans-serif;
+				font-weight:500;
+				
+				position:relative;
+			}
+			.cards img{
+				width:100%;
+				height:13rem;
+				
+				border-radius:50%;
+				margin-top:1rem;
+				transition:0.3s;
+			}
+			
+			.cards button{
+				width:100%;
+				padding:0.5rem 0rem 0.5rem 0rem;
+				margin-bottom:0.75rem;
+				background-color:#561C24;
+				color:#FDF7E4;
+				font-weight:bold;
+				border:none;
+				border-radius:3px;
+			}
+			.cards button:hover{
+				opacity:0.95;
+				
+			}
+			.table .table-img{
+					background-image: url("table1.jpg");
+					float: left;
+					width: 50%;
+					height: 80%;
+					background-position: center;
+					background-size: cover;
+			}
+			.table .d2{
+					float: right;
+					width: 50%;
+					height: 80%;
+					
+				}
+			.table .d2 h1{
+				position:relative;
+				top:25%;
+				left:15%;
+				font-size:5rem;
+			}
+			.table .d2 p{
+				margin:11rem 5rem 2rem 8rem;
+				font-size:1.15rem;
+			}
+			.d2 button{
+				padding:0.5rem 2rem 0.5rem 2rem;
+				margin-bottom:2rem;
+				margin-left:16%;
+				border:2px solid black;
+				background-color:white;
+				font-weight:bold;
+			}
+			.mokeup .mokeup-img{
+				background-image:url("mokeup1.jpg");
+					float: right;
+					width: 50%;
+					height: 80%;
+					background-position: center;
+					background-size: cover;
+			}
+			
+			.mokeup .d3{
+					float: right;
+					width: 50%;
+					height: 80%;
+					
+			}
+			.mokeup .d3 h1{
+				
+				position:relative;
+				top:25%;
+				left:5%;
+				font-size:4rem;
+				font-family:Berlin Sans FB;
+				font-weight:lighter;
+				margin-right:0.75rem;
+			}
+			.mokeup .d3 p{
+				margin:11rem 10rem 3rem 3rem;
+				font-size:2rem;
+				font-family:arial;
+				color:grey;
+			}
+			b{
+				color:black;
+			}
+			.mokeup .d3 button{
+				padding:0.75rem 4rem 0.75rem 4rem;
+				margin-bottom:2rem;
+				margin-left:12%;
+				border:2px solid #561C24;
+				color:#561C24;
+				border-radius:2rem;
+				font-size:1.5rem;
+				background-color:white;
+				font-weight:bold;
+				transition:0.7s ease;
+			}
+			.mokeup .d3 button:hover{
+					background-color:#561C24;
+					color:white;
+			}
+			.mokeup h1 b{
+				font-weight:lighter;
+				color:#BA704F;
+			}
+			.gift{
+				position:relative;
+				text-align:right;
+				
+			}
+			.gift img{
+					position:relative;
+					top:1rem;
+					width:90%;
+					height:90%;
+					border-radius:5rem;
+					right:4%;
+					padding:2rem 1rem 2rem 2rem;
+					
+			}
+			.gift h1{
+				position: relative;
+				bottom: 34rem;
+				right: 8rem;
+				color: white;
+				font-size: 4rem;
+				font-family: arial;
+			}
+			.gift h2{
+				position: relative;
+				bottom: 34rem;
+				left: -8rem;
+				color: black;
+				font-size: 4rem;
+				font-family: arial;
+				
+			}
+			.gift h1 i{
+				color:grey;
+				font-family:roboto;
+				font-size:3rem;
+			}
+			.gift button{
+				position:relative;
+				border:2px solid grey;/*black;/*#561C24;*/
+				bottom:33rem;
+				margin-top:1rem;
+				left:-8rem;
+				color: black;/*#561C24;*/
+				padding:0.85rem 5rem 0.85rem 5rem;
+				background-color:transparent;/*#561C24;*/
+				font-weight:bold;
+				border-radius:2rem;
+				transition:1s;
+				outline:none;
+			}
+			.gift button:hover{
+				background-color:white;
+				color:black;
+				border:2px solid white;
+			}
+			.e{
+				height:25rem;
+				width:100%;
+				position:relative;
+				background-color:#BA704F;
+				position:static;
+				bottom:0px;
+				display:flex;
+				flex-direction:row;
+				justify-content:space-around;
+				align-items:center;
+			}
+			.e ul li{
+				color:white;
+				font-family:arial;
+				margin-top:0.5rem;
+				
+			}
+			.e ul li:first-child{
+				font-weight:bold;
+				margin-bottom:1rem;
+				font-family:arial;
+			}
+			.copy-right{
+				display:block;
+				text-align:center;
+				padding:1.5rem 0rem 1.5rem 0rem;
+				background-color:#BA704F;
+				color:white;
+				font-family:arial;
+			}
+			.copy-right b{
+				text-decoration:underline;
+				color:white;
+				margin-left:0.75rem;
+				font-weight:normal;
+			}
+			.e ol li{
+				list-style:none;
+				color:white;
+				font-family:arial;
+				margin-top:0.9rem;
+			}
+			.e ol li:nth-child(3){
+				margin-top:2rem;
+			}
+			.cattle{
+				margin-left:0rem;
+				display:flex;
+				justify-content:space-evenly;
+				align-items:center;
+				flex-wrap:wrap;
+				position:relative;
+				top:-15rem;
+			}
+			.cattle img{
+				object-fit:cover;
+				margin-top:2rem;
+				height:20rem; 
+				width:25rem;
+				border-radius:2rem;
+			}
+			.cattle h1{
+				text-align:center;
+				font-family:sans-serif;
+				font-weight:lighter;
+			}
+			.cattle h1 b{
+				color:grey;
+				font-size:3rem;
+				font-family:arial;
+			}
+			.cattle h1 i{
+				color:#BA704F;
+			}
